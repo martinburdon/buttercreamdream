@@ -6,7 +6,9 @@ export default () => (
   <header>
     <h1>Logo</h1>
     <NavBar>
-      <NavItem text="Prices" link="/" className="clicky" />
+      <NavItem text="Gallery" link="/" />
+      <NavItem text="Prices" link="/" />
+      <NavItem text="Blog" link="/" className="blog" />
     </NavBar>
   </header>
 );
