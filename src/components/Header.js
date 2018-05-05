@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar.js';
 import NavItem from './NavItem.js';
+import { NavLink } from 'react-router-dom';
 
 export default () => (
   <header>
@@ -8,7 +9,7 @@ export default () => (
     <NavBar>
       <NavItem text="Gallery" link="/" />
       <NavItem text="Prices" link="/" />
-      <NavItem text="Blog" link="/" className="blog" />
+      <NavLink to="/help" activeClassName="is-active">Help</NavLink>
     </NavBar>
   </header>
 );
