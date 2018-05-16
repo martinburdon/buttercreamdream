@@ -7,9 +7,10 @@ export default () => (
   <header>
     <h1>Logo</h1>
     <NavBar>
+      <NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink>
       <NavItem text="Gallery" link="/" />
       <NavItem text="Prices" link="/" />
-      <NavLink to="/help" activeClassName="is-active">Help</NavLink>
+      <NavLink to="/blog" activeClassName="is-active">Blog</NavLink>
     </NavBar>
   </header>
 );
