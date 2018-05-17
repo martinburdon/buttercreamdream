@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import marked from 'marked';
+import ReactMarkdown from 'react-markdown';
 
 class BlogPost extends Component {
   constructor(props) {
@@ -15,21 +15,26 @@ class BlogPost extends Component {
 
   componentWillMount() {
     const post = require(`../posts/${this.state.postSlug}.md`);
+
     fetch(post)
       .then(response => {
         return response.text();
       })
       .then(text => {
         this.setState({
-          markdown: marked(text)
+          markdown: text
         })
+      })
+      .catch(err => {
+        console.log(':: err ', err);
       });
   }
 
   render() {
+    console.log(this.state.markdown);
     return (
       <div>
-        {this.state.markdown}
+        <ReactMarkdown source={this.state.markdown} />
       </div>
     );
   }
@@ -37,6 +42,8 @@ class BlogPost extends Component {
 
 export default BlogPost;
 
+// TODO: Get list of posts so doesn't fail when hittin incorrect url
+// orrr... store MDs somewhere else like Github gist, handle in the catch
 // MD file has the url slug set as the filename, i.e. "/my-new-post", "my-new-post.md"
 // React fetches the page that matches the slug
 // If it doesn't find a match it shows a 404
