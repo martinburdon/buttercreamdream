@@ -4,5 +4,8 @@ import './index.css';
 import AppRouter from './routers/AppRouter.js';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<AppRouter />, document.getElementById('root'));
+ReactDOM.render(
+  <AppRouter />,
+  document.getElementById('root')
+);
 registerServiceWorker();

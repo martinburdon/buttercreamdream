@@ -8,8 +8,7 @@ export default () => (
     <h1>Logo</h1>
     <NavBar>
       <NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink>
-      <NavItem text="Gallery" link="/" />
-      <NavItem text="Prices" link="/" />
+      <NavLink to="/price-list" activeClassName="is-active">Price List</NavLink>
       {/*<NavLink to="/blog" activeClassName="is-active">Blog</NavLink>*/}
     </NavBar>
   </header>
