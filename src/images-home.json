@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Image 1",
+    "altText": "Image 1",
+    "thumb": "http://via.placeholder.com/230x300",
+    "image": ""
+  },
+  {
+    "title": "Image 2",
+    "altText": "Image 2",
+    "thumb": "http://via.placeholder.com/230x300",
+    "image": ""
+  },
+  {
+    "title": "Image 3",
+    "altText": "Image 3",
+    "thumb": "http://via.placeholder.com/230x300",
+    "image": ""
+  }
+]

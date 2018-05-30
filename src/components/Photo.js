@@ -1,5 +1,8 @@
 import React from 'react';
 
 export default (props) => (
-  <div>{props.caption}</div>
+  <div>
+    <img src={props.thumb} alt={props.altText} />
+    <span>{props.title}</span>
+  </div>
 );

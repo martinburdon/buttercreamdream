@@ -2,8 +2,11 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 import Header from '../components/Header.js';
+import HomePage from '../components/HomePage.js';
 import Gallery from '../components/Gallery.js';
 import PriceList from '../components/PriceList.js';
+import Faq from '../components/Faq.js';
+import Contact from '../components/Contact.js';
 // import Blog from '../components/Blog.js';
 // import BlogPost from '../components/BlogPost.js';
 
@@ -17,8 +20,11 @@ const AppRouter = () => (
       </Helmet>
       <Header />
       <Switch>
-        <Route path="/" component={Gallery} exact={true}></Route>
+        <Route path="/" component={HomePage} exact={true}></Route>
+        <Route path="/gallery" component={Gallery} exact={true}></Route>
         <Route path="/price-list" component={PriceList} exact={true}></Route>
+        <Route path="/faq" component={Faq} exact={true}></Route>
+        <Route path="/contact" component={Contact} exact={true}></Route>
         {/*<Route path="/blog" component={Blog} exact={true}></Route>
       <Route path="/blog/:id" component={BlogPost}></Route>*/}
       </Switch>

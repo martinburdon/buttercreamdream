@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import Photo from './Photo.js';
-import images from '../images.json';
 
 class Gallery extends Component {
   constructor(props) {
     super(props);
-    this.items = images;
+    this.items = props.images;
   }
 
   render() {
