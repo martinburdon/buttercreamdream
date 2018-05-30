@@ -5,13 +5,15 @@ import imagesHome from '../images-home.json';
 
 export default () => (
   <div>
-    <p>Some intro text about Buttercream Dream, introducing what we do and where you can get in touch</p>
-    <NavLink
-      to="/contact"
-      activeClassName="is-active"
-      className="btn btn-primary btn-cta">
-      Get in touch
-    </NavLink>
+    <div className="about-text">
+      <p>Buttercream Dream is a custom cake company in Sunderland. Creating delicious cupcakes and celebration cakes for any occasion such as birthdays, christenings, weddings and anniversaries, not to forget special days such as mothers day, fathers day and every event between.</p>
+      <NavLink
+        to="/contact"
+        activeClassName="is-active"
+        className="btn btn-primary btn-cta">
+        Get in touch
+      </NavLink>
+    </div>
     <Gallery images={imagesHome} />
   </div>
 );

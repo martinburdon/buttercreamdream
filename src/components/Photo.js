@@ -1,8 +1,10 @@
 import React from 'react';
 
 export default (props) => (
-  <div>
+  <gallery-item>
     <img src={props.thumb} alt={props.altText} />
-    <span>{props.title}</span>
-  </div>
+    <div className="title-container">
+      <span>{props.title}</span>
+    </div>
+  </gallery-item>
 );
