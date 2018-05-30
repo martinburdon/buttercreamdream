@@ -1,3 +1,7 @@
+/**
+ *  TODO: Accept prop to determine whether showing small thumbs (gallery page) or larger thumbs with label (home page)
+ */
+
 import React, { Component } from 'react';
 import Photo from './Photo.js';
 
@@ -10,9 +14,9 @@ class Gallery extends Component {
   render() {
     const items = this.items;
     return (
-      <div>
+      <image-gallery>
         {items.map((item, index) => <Photo {...item} key={index}  />)}
-      </div>
+      </image-gallery>
     );
   }
 }
