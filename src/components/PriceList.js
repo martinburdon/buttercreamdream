@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 export default () => (
   <div>
     <Helmet>
-      <title>Buttercream Dream - cupcakes, cakes and sweet treats in Sunderland | Price List</title>
+      <title>Buttercream Dream - Cupcakes, Cakes and Sweet Treats in Sunderland | Price List</title>
     </Helmet>
     Prices
   </div>

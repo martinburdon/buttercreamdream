@@ -11,7 +11,9 @@ const AppRouter = () => (
   <BrowserRouter>
     <div>
       <Helmet>
-        <title>Buttercream Dream - cupcakes, cakes and sweet treats in Sunderland</title>
+        <title>Buttercream Dream - Cupcakes, Cakes and Sweet Treats in Sunderland</title>
+        <meta name="description" content="Cakes, cupcakes and sweet treats for all occasions. We can make cakes for all occasions such as birthday, anniversary, christening, wedding and any other occasion you may need cake!" />
+        <meta name="keywords" content="cakes, cupcakes, sunderland, cake pops, newcastle, cakes in sunderland, cakes in the north east, custom cakes" />
       </Helmet>
       <Header />
       <Switch>
