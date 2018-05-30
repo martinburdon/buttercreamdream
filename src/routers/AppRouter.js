@@ -21,11 +21,11 @@ const AppRouter = () => (
       <Header />
       <div class="main">
         <Switch>
-          <Route path="/" component={HomePage} exact={true}></Route>
-          <Route path="/gallery" component={GalleryPage} exact={true}></Route>
-          <Route path="/price-list" component={PriceList} exact={true}></Route>
-          <Route path="/faq" component={Faq} exact={true}></Route>
-          <Route path="/contact" component={Contact} exact={true}></Route>
+          <Route path="/" component={HomePage} exact={true} />
+          <Route path="/gallery" component={GalleryPage} />
+          <Route path="/price-list" component={PriceList} />
+          <Route path="/faq" component={Faq} />
+          <Route path="/contact" component={Contact} />
           {/*<Route path="/blog" component={Blog} exact={true}></Route>
         <Route path="/blog/:id" component={BlogPost}></Route>*/}
         </Switch>

@@ -12,7 +12,7 @@ export default () => (
       <h1>Buttercream<br/>Dream</h1>
     </NavLink>
     <NavBar className="main-nav">
-      <NavLink to="/" activeClassName="is-active">Home</NavLink>
+      <NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink>
       <NavLink to="/gallery" activeClassName="is-active">Gallery</NavLink>
       <NavLink to="/price-list" activeClassName="is-active">Price List</NavLink>
       <NavLink to="/faq" activeClassName="is-active">FAQ</NavLink>
