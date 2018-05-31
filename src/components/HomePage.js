@@ -10,7 +10,7 @@ export default () => (
       <NavLink
         to="/contact"
         activeClassName="is-active"
-        className="btn btn-primary btn-cta">
+        className="btn btn-secondary btn-cta">
         Get in touch
       </NavLink>
     </div>

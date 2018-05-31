@@ -19,7 +19,7 @@ const AppRouter = () => (
         <meta name="keywords" content="cakes, cupcakes, sunderland, cake pops, newcastle, cakes in sunderland, cakes in the north east, custom cakes" />
       </Helmet>
       <Header />
-      <div class="main">
+      <div className="main">
         <Switch>
           <Route path="/" component={HomePage} exact={true} />
           <Route path="/gallery" component={GalleryPage} />

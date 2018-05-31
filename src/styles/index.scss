@@ -1,6 +1,7 @@
 @import 'variables.scss';
 @import 'reset.scss';
 @import 'fonts.scss';
+@import 'buttons.scss';
 
 html {
   font-size: 10px;
@@ -45,16 +46,15 @@ header {
 
   a {
     color: #848484;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
     margin: 0 1rem;
     padding: 0.8rem 1.2rem;
+    text-transform: uppercase;
 
-    &:hover {
-      color: $secondary-color;
-    }
-
+    &:hover,
     &.is-active {
-      color: $secondary-color;
+      color: #444;
     }
   }
 }
@@ -100,14 +100,24 @@ p {
 a {
   color: $secondary-color;
   text-decoration: none;
+
+  &:hover {
+    color: darken($secondary-color, 15%);
+  }
+}
+
+img {
+  max-height: auto;
+  width: 100%;
 }
 
 /**
  *  Gallery
  */
 image-gallery {
+  align-items: flex-end;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: no-wrap;
   justify-content: space-around;
   width: 100%;
 }
@@ -117,10 +127,18 @@ gallery-item {
   display: flex;
   flex-direction: column;
   margin-bottom: 4rem;
+  width: 23rem;
 
   .title-container {
     background: #fff;
     padding: 2rem;
     text-align: center;
+
+    span {
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
+    }
   }
 }
