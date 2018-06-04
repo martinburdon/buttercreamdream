@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import Header from '../components/Header.js';
 import HomePage from '../components/HomePage.js';
 import GalleryPage from '../components/GalleryPage.js';
-import PriceList from '../components/PriceList.js';
+import Menu from '../components/Menu.js';
 import Faq from '../components/Faq.js';
 import Contact from '../components/Contact.js';
 // import Blog from '../components/Blog.js';
@@ -23,7 +23,7 @@ const AppRouter = () => (
         <Switch>
           <Route path="/" component={HomePage} exact={true} />
           <Route path="/gallery" component={GalleryPage} />
-          <Route path="/price-list" component={PriceList} />
+          <Route path="/menu" component={Menu} />
           <Route path="/faq" component={Faq} />
           <Route path="/contact" component={Contact} />
           {/*<Route path="/blog" component={Blog} exact={true}></Route>

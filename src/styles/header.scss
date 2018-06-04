@@ -1,0 +1,16 @@
+@import 'variables.scss';
+
+header {
+  margin: 2rem 0;
+
+  .logo {
+    color: $primary-color;
+    display: block;
+    margin: 4rem auto 2rem;
+    max-width: 18rem;
+
+    @media (min-width: 600px) {
+      max-width: 24rem;
+    }
+  }
+}

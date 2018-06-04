@@ -2,19 +2,37 @@
   {
     "title": "Fresh fruit drip cake",
     "altText": "Fresh fruit drip cake",
-    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_230/v1527797746/Buttercream%20Dream/IMG_7462-lightroom.jpg",
-    "image": ""
-  },
-  {
-    "title": "Pink Mermaid cake",
-    "altText": "Pink Mermaid cake",
-    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_230/v1527797749/Buttercream%20Dream/mermaid-cake.jpg",
+    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_620/v1527797746/Buttercream%20Dream/IMG_7462-lightroom.jpg",
     "image": ""
   },
   {
     "title": "Cup of tea cake",
     "altText": "Cup of tea cake",
-    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_230/v1527797745/Buttercream%20Dream/IMG_4968-lightroom.jpg",
+    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_620/v1527797745/Buttercream%20Dream/IMG_4968-lightroom.jpg",
+    "image": ""
+  },
+  {
+    "title": "Fresh fruit drip cake",
+    "altText": "Fresh fruit drip cake",
+    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_620/v1527797746/Buttercream%20Dream/IMG_7462-lightroom.jpg",
+    "image": ""
+  },
+  {
+    "title": "Cup of tea cake",
+    "altText": "Cup of tea cake",
+    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_620/v1527797745/Buttercream%20Dream/IMG_4968-lightroom.jpg",
+    "image": ""
+  },
+  {
+    "title": "Fresh fruit drip cake",
+    "altText": "Fresh fruit drip cake",
+    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_620/v1527797746/Buttercream%20Dream/IMG_7462-lightroom.jpg",
+    "image": ""
+  },
+  {
+    "title": "Cup of tea cake",
+    "altText": "Cup of tea cake",
+    "thumb": "http://res.cloudinary.com/mtb/image/upload/c_scale,q_100,w_620/v1527797745/Buttercream%20Dream/IMG_4968-lightroom.jpg",
     "image": ""
   }
 ]
