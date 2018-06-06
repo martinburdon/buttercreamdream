@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from './NavBar.js';
+import NavBar from 'components/NavBar.js';
 import { NavLink } from 'react-router-dom';
-import logo from '../images/logo.svg';
+import logo from 'images/logo.svg';
 
 export default () => (
   <header>

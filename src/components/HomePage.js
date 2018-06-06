@@ -1,7 +1,7 @@
 import React from 'react';
-import Photo from './Photo.js';
+import Photo from 'components/gallery/Photo.js';
 import { NavLink } from 'react-router-dom';
-import imagesHome from '../images-home.json';
+import imagesHome from 'images-home.json';
 
 export default () => (
   <div>

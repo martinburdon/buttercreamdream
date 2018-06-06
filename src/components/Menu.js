@@ -1,6 +1,6 @@
 import React from 'react';
-import { Helmet } from "react-helmet";
-import PricingTable from './PricingTable.js';
+import { Helmet } from 'react-helmet';
+import PricingTable from 'components/productTable/PricingTable.js';
 
 export default () => (
   <div>

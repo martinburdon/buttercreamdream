@@ -3,7 +3,7 @@
  */
 
 import React, { Component } from 'react';
-import Photo from './gallery/Photo.js';
+import Photo from 'components/gallery/Photo.js';
 
 class Gallery extends Component {
   constructor(props) {

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ProductCategoryRow from './productTable/ProductCategoryRow.js';
-import ProductRow from './productTable/ProductRow.js';
+import ProductCategoryRow from 'components/productTable/ProductCategoryRow.js';
+import ProductRow from 'components/productTable/ProductRow.js';
 
 class PricingTable extends Component {
   getTableBody(data) {
