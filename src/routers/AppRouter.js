@@ -1,14 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Helmet } from "react-helmet";
-import Header from '../components/Header.js';
+import Header from '../components/core/Header.js';
 import HomePage from '../components/HomePage.js';
-import GalleryPage from '../components/GalleryPage.js';
+import GalleryPage from '../components/gallery/GalleryPage.js';
 import Menu from '../components/Menu.js';
 import Faq from '../components/Faq.js';
 import Contact from '../components/Contact.js';
-// import Blog from '../components/Blog.js';
-// import BlogPost from '../components/BlogPost.js';
 
 const AppRouter = () => (
   <BrowserRouter>
