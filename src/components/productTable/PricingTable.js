@@ -42,13 +42,14 @@ class PricingTable extends Component {
     const data = [
       { category: 'Cupcakes', price: '£', name: 'Box of 6' },
       { category: 'Cupcakes', price: '££', name: 'Box of 12' },
-      { category: 'Celebration cake', price: '£', name: '7"' },
-      { category: 'Celebration cake', price: '££', name: '12"' }
+      { category: 'Cupcakes', price: '£££', name: 'Box of 24' },
+      { category: 'Celebration cakes', price: '£', name: 'Single tier 7"' },
+      { category: 'Celebration cakes', price: '££', name: 'Single tier 12"' },
+      { category: 'Celebration cakes', price: '££', name: '2 Tier 12 / 7"' }
     ];
 
     return (
       <table>
-        {this.getTableHead()}
         {this.getTableBody(data)}
       </table>
     );

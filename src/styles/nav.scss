@@ -1,10 +1,7 @@
 @import 'variables.scss';
 
 .main-nav {
-  background-color: $primary-color;
-  margin-top: 4rem;
-  padding: 0 2rem;
-
+  margin: 2rem 0;
   ul {
     display: flex;
     justify-content: space-between;
@@ -16,21 +13,22 @@
   }
 
   a {
-    color: $white;
+    color: #333;
+    font-family: 'brandon-grotesque', sans-serif;
     font-size: 1.6rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
-    padding: 1.4rem 1.4rem;
+    // padding: 1.4rem 1.4rem;
+    margin: 0 1.5rem;
     text-transform: uppercase;
 
-    @media (min-width: 360px) {
-      margin: 0 1rem;
-    }
+    // @media (min-width: 360px) {
+    //   margin: 0 1rem;
+    // }
 
     &:hover,
     &.is-active {
-      color: $white;
-      opacity: 0.7;
+      color: $primary-color;
     }
   }
 }

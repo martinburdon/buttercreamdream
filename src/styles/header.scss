@@ -1,16 +1,66 @@
 @import 'variables.scss';
 
 header {
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 
   .logo {
     color: $primary-color;
     display: block;
-    margin: 4rem auto 2rem;
+    margin: 2rem 0;
     max-width: 18rem;
 
-    @media (min-width: 600px) {
+    @media (min-width: 680px) {
       max-width: 24rem;
+    }
+  }
+}
+
+.nav-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 3rem auto 2rem;
+  padding: 0 4rem;
+  max-width: $max-width;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+}
+
+.top-bar {
+  background: $primary-color;
+  margin-bottom: 2rem;
+
+  div {
+    align-items: center;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: $max-width;
+    padding: 1rem 4rem;
+
+    @media (min-width: 600px) {
+      justify-content: flex-end;
+    }
+  }
+
+  a {
+    color: $white;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin-left: 1.5rem;
+    padding: 0 0 0 1.5rem;
+    text-transform: uppercase;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:last-child {
+      border-left: 1px solid $white;
     }
   }
 }

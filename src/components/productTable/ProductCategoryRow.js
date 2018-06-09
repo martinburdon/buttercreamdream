@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default ({ category }) => (
-  <tr>
+  <tr className="category">
     <th colSpan="2">
       {category}
     </th>

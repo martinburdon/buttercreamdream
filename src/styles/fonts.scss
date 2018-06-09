@@ -1,15 +1,6 @@
 /**
  *  Lato
  */
-@font-face {
-  font-family: 'lato';
-  src:
-    local('latolight'),
-    url('../fonts/lato/lato-light.woff2') format('woff2'),
-    url('../fonts/lato/lato-light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'lato';
@@ -32,16 +23,6 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'lato';
-  src:
-    local('latoblack'),
-    url('../fonts/lato/lato-black.woff2') format('woff2'),
-    url('../fonts/lato/lato-black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
 /**
  *  Brandon Grotesque
  */
@@ -60,26 +41,5 @@
     url('../fonts/brandon-grotesque/brandon_bld-webfont.woff2') format('woff2'),
     url('../fonts/brandon-grotesque/brandon_bld-webfont.woff') format('woff');
   font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'brandon-grotesque';
-  src:
-    url('../fonts/brandon-grotesque/brandon_blk-webfont.woff2') format('woff2'),
-    url('../fonts/brandon-grotesque/brandon_blk-webfont.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
-
-/**
- *  Oraqle
- */
-@font-face {
-  font-family: 'oraqle';
-  src:
-    url('../fonts/oraqle/oraqle_script-webfont.woff2') format('woff2'),
-    url('../fonts/oraqle/oraqle_script-webfont.woff') format('woff');
-  font-weight: normal;
   font-style: normal;
 }
