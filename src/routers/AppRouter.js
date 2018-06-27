@@ -7,6 +7,7 @@ import GalleryPage from '../components/gallery/GalleryPage.js';
 import Menu from '../components/Menu.js';
 import Faq from '../components/Faq.js';
 import Contact from '../components/Contact.js';
+import NotFound from '../components/NotFound.js';
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -24,8 +25,9 @@ const AppRouter = () => (
           <Route path="/menu" component={Menu} />
           <Route path="/faq" component={Faq} />
           <Route path="/contact" component={Contact} />
+          <Route component={NotFound} />
           {/*<Route path="/blog" component={Blog} exact={true}></Route>
-        <Route path="/blog/:id" component={BlogPost}></Route>*/}
+          <Route path="/blog/:id" component={BlogPost}></Route>*/}
         </Switch>
       </div>
     </div>
