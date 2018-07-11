@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+footer {
+  .logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 16rem;
+  }
+}
+
+.footer-container {
+  margin: 3rem auto 2rem;
+  max-width: $max-width;
+  padding: 0 4rem;
+}

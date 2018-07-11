@@ -2,6 +2,7 @@
 
 .main-nav {
   margin: 2rem 0;
+
   ul {
     display: flex;
     justify-content: space-between;
@@ -24,6 +25,10 @@
     &:hover,
     &.is-active {
       color: $primary-color;
+    }
+
+    &:last-child {
+      margin-right: 0;
     }
   }
 }
