@@ -13,6 +13,14 @@
     }
   }
 
+  li {
+    &:last-child {
+      a {
+        margin-right: 0;
+      }
+    }
+  }
+
   a {
     color: #333;
     font-family: 'brandon-grotesque', sans-serif;
@@ -25,10 +33,6 @@
     &:hover,
     &.is-active {
       color: $primary-color;
-    }
-
-    &:last-child {
-      margin-right: 0;
     }
   }
 }
