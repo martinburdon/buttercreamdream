@@ -1,6 +1,6 @@
 import React from 'react';
 import Photo from 'components/gallery/Photo.js';
-import imagesHome from 'images-home.json';
+import imagesHome from 'config/images-home.json';
 
 export default () => (
   <div>

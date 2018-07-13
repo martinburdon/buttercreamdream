@@ -18,8 +18,6 @@ export default () => (
       <NavBar className="main-nav">
         <li><NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink></li>
         <li><NavLink to="/cakes" activeClassName="is-active">Cakes</NavLink></li>
-        <li><NavLink to="/cakes/cupcakes" activeClassName="is-active">Cupcakes</NavLink></li>
-        <li><NavLink to="/cakes/childrens-birthday-cakes" activeClassName="is-active">Kids cakes</NavLink></li>
         <li><NavLink to="/contact" activeClassName="is-active">Contact</NavLink></li>
       </NavBar>
     </div>
