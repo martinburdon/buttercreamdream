@@ -1,7 +1,7 @@
 import React from 'react';
 import NavBar from 'components/NavBar.js';
 import { NavLink } from 'react-router-dom';
-import logo from 'images/logo.svg';
+import Logo from 'components/core/Logo.js';
 
 export default () => (
   <header>
@@ -12,9 +12,7 @@ export default () => (
       </div>
     </div>
     <div className="nav-container">
-      <NavLink to="/" className="logo" exact={true}>
-        <img src={logo} className="logo-svg" alt="Buttercream Dream" />
-      </NavLink>
+      <Logo />
       <NavBar className="main-nav">
         <li><NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink></li>
         <li><NavLink to="/cakes" activeClassName="is-active">Cakes</NavLink></li>

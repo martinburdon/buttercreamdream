@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import Gallery from 'components/gallery/Gallery.js';
-import siteConfig from 'config/site-config.js';
+import { formatCakeTitle } from 'helpers.js';
 
 class CakesTemplate extends Component {
   render() {
-    const { title, meta = {}, content, tags } = this.props;
-    const metaTitle = meta.title ? meta.title : siteConfig.meta.title;
+    const { title, content, tags } = this.props;
+    const fullTitle = formatCakeTitle(title);
 
     return (
       <div>
         <Helmet>
-          <title>{metaTitle}</title>
+          <title>{fullTitle}</title>
         </Helmet>
-        <h1>{title}</h1>
-        <p>{content}</p>
+        <h1>{fullTitle}</h1>
+        <p dangerouslySetInnerHTML={{__html: content}} />
         <Gallery tags={tags} />
       </div>
     )

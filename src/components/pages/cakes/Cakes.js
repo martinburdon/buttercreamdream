@@ -2,15 +2,12 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import siteConfig from 'config/site-config.js';
+import { formatCakeUrl, formatCakeTitle } from 'helpers.js';
 
-const getLinks = ({ url, title }, i) => {
-  return (
-    <li key={i}>
-      <NavLink to={`/cakes/${url}`}>
-        {title}
-      </NavLink>
-    </li>
-  )
+const getLinks = ({ title }, i) => {
+  const fullTitle = formatCakeTitle(title);
+  const url = formatCakeUrl(title);
+  return <li key={i}><NavLink to={url}>{fullTitle}</NavLink></li>;
 };
 
 export default () => {

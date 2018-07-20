@@ -1,20 +1,24 @@
 import React from 'react';
+import Logo from 'components/core/Logo.js';
 import { NavLink } from 'react-router-dom';
-import logo from 'images/logo.svg';
-import cakePages from 'config/cake-pages.json';
+import siteConfig from 'config/site-config.js';
+import { formatCakeTitle, formatCakeUrl } from 'helpers.js';
 
-const getLinks = ({ url, shortContent, title }, i) => {
+const getLinks = ({ shortContent, title }, i) => {
+  const fullTitle = formatCakeTitle(title);
+  const url = formatCakeUrl(title);
+
   return (
     <section key={i}>
-      <h2>{title}</h2>
+      <h2>{fullTitle}</h2>
       <p dangerouslySetInnerHTML={{__html: shortContent}} />
-      <NavLink to={`/cakes/${url}`} className="page-link">{title} →</NavLink>
+      <NavLink to={url} className="page-link">{fullTitle} →</NavLink>
     </section>
   )
 };
 
 export default () => {
-  const links = cakePages.map((page, i) => getLinks(page, i));
+  const links = siteConfig.cakePages.map((page, i) => getLinks(page, i));
 
   return (
     <footer>
@@ -22,9 +26,7 @@ export default () => {
         <div className="footer-cakes">
           {links}
         </div>
-        <NavLink to="/" className="logo" exact={true}>
-          <img src={logo} className="logo-svg" alt="Buttercream Dream" />
-        </NavLink>
+        <Logo />
       </div>
     </footer>
   )

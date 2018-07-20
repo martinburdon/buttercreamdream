@@ -3,25 +3,25 @@ import { Route, Switch } from 'react-router-dom';
 import Cakes from 'components/pages/cakes/Cakes.js';
 import CakesTemplate from 'components/pages/cakes/CakesTemplate.js';
 import cakePages from 'config/cake-pages.json';
+import { formatCakeUrl } from 'helpers.js';
 
 class CakesRouter extends Component {
-  createRoute(path, page, i) {
+  createRoute(page, i) {
     return (
       <Route
         key={i}
-        path={`${path}/${page.url}`}
+        path={formatCakeUrl(page.title)}
         render={routeProps => <CakesTemplate {...routeProps} {...page} />}
       />
     );
   }
 
   render() {
-    const path = `${this.props.match.path}`;
-    const pages = cakePages.map((page, i) => this.createRoute(path, page, i));
+    const pages = cakePages.map((page, i) => this.createRoute(page, i));
 
     return (
       <Switch>
-        <Route path={path} component={Cakes} exact />
+        <Route path="/cakes" component={Cakes} exact />
         {pages}
       </Switch>
     )
