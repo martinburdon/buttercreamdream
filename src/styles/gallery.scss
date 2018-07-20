@@ -1,9 +1,10 @@
 /**
  *  Gallery
  */
-.home-gallery {
+.home-gallery,
+image-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   grid-auto-flow: dense;
   grid-gap: 3rem;
   margin: 2rem 0;

@@ -6,16 +6,16 @@ import Footer from '../components/core/Footer.js';
 import HomePage from '../components/pages/HomePage.js';
 import Contact from '../components/pages/Contact.js';
 import NotFound from '../components/pages/NotFound.js';
-
 import CakesRouter from '../routers/CakesRouter.js';
+import siteConfig from 'config/site-config.js';
 
 const AppRouter = () => (
   <BrowserRouter>
     <div className="app">
       <Helmet>
-        <title>Buttercream Dream - Cupcakes, Cakes and Sweet Treats in Sunderland</title>
-        <meta name="description" content="Cakes, cupcakes and sweet treats for all occasions. We can make cakes for all occasions such as birthday, anniversary, christening, wedding and any other occasion you may need cake!" />
-        <meta name="keywords" content="cakes, cupcakes, sunderland, cake pops, newcastle, cakes in sunderland, cakes in the north east, custom cakes" />
+        <title>{siteConfig.meta.title}</title>
+        <meta name="description" content={siteConfig.meta.description} />
+        <meta name="keywords" content={siteConfig.meta.keywords} />
       </Helmet>
       <Header />
       <div className="main">

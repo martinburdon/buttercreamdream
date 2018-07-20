@@ -16,7 +16,8 @@ html {
 body {
   color: #757575;
   font-family: Lato, sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 }
@@ -26,6 +27,7 @@ body {
 }
 
 .intro-text {
+  margin: 8rem 0;
   text-align: center;
 }
 
@@ -33,11 +35,6 @@ body {
   margin: 4rem auto;
   max-width: $max-width;
   padding: 0 4rem;
-
-  > div {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
 img {

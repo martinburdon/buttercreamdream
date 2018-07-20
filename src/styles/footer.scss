@@ -1,8 +1,39 @@
 @import 'variables.scss';
 
 footer {
+  background: linear-gradient(-180deg, lighten($tertiary-color, 4%) 43%, $tertiary-color);
+  margin: 10rem 0 0;
+  padding: 8rem;
+
   .footer-cakes {
-    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    grid-gap: 2rem 4rem;
+    margin-bottom: 8rem;
+
+    h2 {
+      color: #c0c9d8;
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 1.4;
+    }
+
+    p {
+      color: #556a8b;
+      font-size: 1.4rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .page-link {
+      font-size: 1.3rem;
+      letter-spacing: 1px;
+    }
+
+    section {
+      &:last-child {
+        grid-column: -1/1;
+      }
+    }
   }
 
   .logo {
@@ -13,7 +44,6 @@ footer {
 }
 
 .footer-container {
-  margin: 3rem auto 2rem;
+  margin: 0 auto;
   max-width: $max-width;
-  padding: 0 4rem;
 }

@@ -1,10 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import siteConfig from 'config/site-config.js';
 
 export default () => (
   <div>
     <Helmet>
-      <title>Buttercream Dream - Cupcakes, Cakes and Sweet Treats in Sunderland | Contact</title>
+      <title>Contact | {siteConfig.meta.title}</title>
     </Helmet>
     <h1>Contact</h1>
     <p>If you're ordering a cake, thinking of ordering a cake or just have a general question about my cakes, please get in touch via the below methods:</p>

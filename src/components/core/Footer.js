@@ -3,24 +3,24 @@ import { NavLink } from 'react-router-dom';
 import logo from 'images/logo.svg';
 import cakePages from 'config/cake-pages.json';
 
-const getLinks = ({ url, title }) => {
+const getLinks = ({ url, shortContent, title }, i) => {
   return (
-    <li>
-      <NavLink to={`/cakes/${url}`} activeClassName="is-active">
-        {title}
-      </NavLink>
-    </li>
+    <section key={i}>
+      <h2>{title}</h2>
+      <p dangerouslySetInnerHTML={{__html: shortContent}} />
+      <NavLink to={`/cakes/${url}`} className="page-link">{title} →</NavLink>
+    </section>
   )
 };
 
 export default () => {
-  const links = cakePages.map(page => getLinks(page));
+  const links = cakePages.map((page, i) => getLinks(page, i));
 
   return (
     <footer>
       <div className="footer-container">
         <div className="footer-cakes">
-          <ul>{links}</ul>
+          {links}
         </div>
         <NavLink to="/" className="logo" exact={true}>
           <img src={logo} className="logo-svg" alt="Buttercream Dream" />
