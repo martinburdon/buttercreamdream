@@ -2,6 +2,7 @@
 
 .main-nav {
   margin: 2rem 0;
+
   ul {
     display: flex;
     justify-content: space-between;
@@ -9,6 +10,14 @@
 
     @media (min-width: 360px) {
       justify-content: center;
+    }
+  }
+
+  li {
+    &:last-child {
+      a {
+        margin-right: 0;
+      }
     }
   }
 

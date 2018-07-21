@@ -2,34 +2,39 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 import Header from '../components/core/Header.js';
-import HomePage from '../components/HomePage.js';
-import GalleryPage from '../components/gallery/GalleryPage.js';
-import Menu from '../components/Menu.js';
-import Faq from '../components/Faq.js';
-import Contact from '../components/Contact.js';
+import Footer from '../components/core/Footer.js';
+import HomePage from '../components/pages/HomePage.js';
+import Contact from '../components/pages/Contact.js';
+import NotFound from '../components/pages/NotFound.js';
+import CakesRouter from '../routers/CakesRouter.js';
+import siteConfig from 'config/site-config.js';
 
 const AppRouter = () => (
   <BrowserRouter>
     <div className="app">
       <Helmet>
-        <title>Buttercream Dream - Cupcakes, Cakes and Sweet Treats in Sunderland</title>
-        <meta name="description" content="Cakes, cupcakes and sweet treats for all occasions. We can make cakes for all occasions such as birthday, anniversary, christening, wedding and any other occasion you may need cake!" />
-        <meta name="keywords" content="cakes, cupcakes, sunderland, cake pops, newcastle, cakes in sunderland, cakes in the north east, custom cakes" />
+        <title>{siteConfig.meta.title}</title>
+        <meta name="description" content={siteConfig.meta.description} />
+        <meta name="keywords" content={siteConfig.meta.keywords} />
       </Helmet>
       <Header />
       <div className="main">
+        <Route component={ScrollToTop} />
         <Switch>
-          <Route path="/" component={HomePage} exact={true} />
-          <Route path="/gallery" component={GalleryPage} />
-          <Route path="/menu" component={Menu} />
-          <Route path="/faq" component={Faq} />
+          <Route path="/" component={HomePage} exact />
+          <Route path="/cakes" component={CakesRouter} />
           <Route path="/contact" component={Contact} />
-          {/*<Route path="/blog" component={Blog} exact={true}></Route>
-        <Route path="/blog/:id" component={BlogPost}></Route>*/}
+          <Route component={NotFound} />
         </Switch>
       </div>
+      <Footer />
     </div>
   </BrowserRouter>
 );
+
+const ScrollToTop = () => {
+  window.scrollTo(0, 0);
+  return null;
+};
 
 export default AppRouter;

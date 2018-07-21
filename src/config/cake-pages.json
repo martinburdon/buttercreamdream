@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Cupcakes",
+    "shortContent": "Cupcakes can go with any occasion and come in lots of different styles. From a simple swirl in your favourite colours, cupcakes adorned with sweets or a special topper to go with your particular event. There's always a reason to eat cupcakes 🍥",
+    "content": "This is some content for the Cupcakes page",
+    "tags": ["cupcakes"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/dog-cupcakes.jpg"
+  },
+  {
+    "title": "Anniversary Cakes",
+    "shortContent": "An anniversary is a special occasion which should not be enjoyed without cake! Whether it be a fancy cake to help commemorate a special milestone or a simple cake with a memorable topper 💝",
+    "content": "This is some content for the Anniversary page",
+    "tags": ["anniversary"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_scale,q_80,w_400/v1532193708/Buttercream%20Dream/Anniversary/anniversary-biscuit.jpg"
+  },
+  {
+    "title": "Unicorn Cakes",
+    "shortContent": "Unicorn cakes have been very popular recently, from small unicorn cupcakes to large unicorn cakes in a rainbow of colours. The perfect choice for unicorn fans! 🦄",
+    "content": "This is some content for the Unicorn page",
+    "tags": ["unicorn"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/unicorn-cupcakes.jpg"
+  },
+  {
+    "title": "Children's Birthday Cakes",
+    "shortContent": "From your childs favourite character to a creation they've dreamt up themselves, a birthday is not complete without a delicious cake.",
+    "content": "This is some content for the Children's Birthday page",
+    "tags": ["childrens"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_fill,q_80,h_400,w_400/v1527797749/Buttercream%20Dream/mermaid-cake.jpg"
+  },
+  {
+    "title": "Adult Birthday Cakes",
+    "shortContent": "Birthday cake isn't just for the kids, don't forget grown ups enjoy cake too!",
+    "content": "This is some content for the Adult Birthday page",
+    "tags": ["adult"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/chocolate-treats-cake.jpg"
+  },
+  {
+    "title": "Engagement Cakes",
+    "shortContent": "What better way to celebrate such a special occasion as an engagement. 💍 Share the moment with friends and cake!",
+    "content": "This is some content for the Engagement page",
+    "tags": ["engagement"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_fill,q_80,h_400,w_400/v1532192562/Buttercream%20Dream/Engagement/red-engagement-cakes.jpg"
+  },
+  {
+    "title": "Seasonal Cakes",
+    "shortContent": "I've made cakes for all kinds of events such as Christmas cakes, Easter cakes, Halloween cakes, Mothers Day cakes and Fathers Day cakes. Not to mention all the other events that fall throughout the year such as Teacher cakes, Graduation cakes, baby shower cakes and baby reveal cakes. If you're looking for a custom cake <a href='/contact'>get in touch</a> with me and we can discuss your requirements",
+    "content": "This is some content for the Seasonal page",
+    "tags": ["seasonal"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_scale,q_80,w_400/v1532193709/Buttercream%20Dream/Seasonal/christmas-holly-cake.jpg"
+  }
+]

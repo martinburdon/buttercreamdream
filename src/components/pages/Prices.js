@@ -1,11 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import PricingTable from 'components/productTable/PricingTable.js';
+import siteConfig from 'config/site-config.js';
 
 export default () => (
   <div>
     <Helmet>
-      <title>Buttercream Dream - Cupcakes, Cakes and Sweet Treats in Sunderland | Price List</title>
+      <title>Prices | {siteConfig.meta.title}</title>
     </Helmet>
     <h1>Prices</h1>
     <p>You can find guide prices for various types of cake below - please bear in mind that prices may vary depending on your exact requirements (for example if you would like an elaborate topper etc) so please get in touch if there's something specific you are looking for</p>

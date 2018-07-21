@@ -1,24 +1,36 @@
-/**
- *  TODO: Accept prop to determine whether showing small thumbs (gallery page) or larger thumbs with label (home page)
- */
-
 import React, { Component } from 'react';
 import Photo from 'components/gallery/Photo.js';
+import imagesLib from 'config/images.json';
 
 class Gallery extends Component {
-  constructor(props) {
-    super(props);
-    this.items = props.images;
+  state = {
+    images: []
+  };
+
+  componentDidMount() {
+    const qualifyingTags = this.props.tags;
+    const images = imagesLib;
+    const found = images.filter(image => qualifyingTags.some(tag => image.tags.includes(tag)));
+    this.setState({ images: found });
   }
 
   render() {
-    const items = this.items;
     return (
       <image-gallery>
-        {items.map((item, index) => <Photo {...item} key={index}  />)}
+        {this.state.images.map((item, index) => <Photo {...item} key={index}  />)}
       </image-gallery>
     );
   }
 }
 
 export default Gallery;
+
+
+// const qualifyingTags = ['birthday', 'cake'];
+// const images = [
+//   { tags: ['birthday', 'mermaid'] },
+//   { tags: ['cake', 'poo'] },
+//   { tags: ['something', 'else'] }
+// ];
+//
+// const found = images.filter(image => qualifyingTags.some(a => image.tags.includes(a)));

@@ -5,36 +5,26 @@
 @font-face {
   font-family: 'lato';
   src:
-    local('latoregular'),
-    url('../fonts/lato/lato-regular.woff2') format('woff2'),
-    url('../fonts/lato/lato-regular.woff') format('woff');
-  font-weight: 400;
+    local('latolight'),
+    url('../fonts/lato/lato-light.woff2') format('woff2'),
+    url('../fonts/lato/lato-light.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
-
 }
 
 @font-face {
   font-family: 'lato';
   src:
-    local('latobold'),
-    url('../fonts/lato/lato-bold.woff2') format('woff2'),
-    url('../fonts/lato/lato-bold.woff') format('woff');
-  font-weight: 700;
+    local('latoregular'),
+    url('../fonts/lato/lato-regular.woff2') format('woff2'),
+    url('../fonts/lato/lato-regular.woff') format('woff');
+  font-weight: 400;
   font-style: normal;
 }
 
 /**
  *  Brandon Grotesque
  */
-@font-face {
-  font-family: 'brandon-grotesque';
-  src:
-    url('../fonts/brandon-grotesque/brandon_reg-webfont.woff2') format('woff2'),
-    url('../fonts/brandon-grotesque/brandon_reg-webfont.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
 @font-face {
   font-family: 'brandon-grotesque';
   src:
