@@ -5,7 +5,7 @@ import Header from '../components/core/Header.js';
 import Footer from '../components/core/Footer.js';
 import HomePage from '../components/pages/HomePage.js';
 import Contact from '../components/pages/Contact.js';
-import NotFound from '../components/pages/NotFound.js';
+// import NotFound from '../components/pages/NotFound.js';
 import CakesRouter from '../routers/CakesRouter.js';
 import siteConfig from 'config/site-config.js';
 
@@ -24,7 +24,7 @@ const AppRouter = () => (
           <Route path="/" component={HomePage} exact />
           <Route path="/cakes" component={CakesRouter} />
           <Route path="/contact" component={Contact} />
-          <Route component={NotFound} />
+          {/*<Route component={NotFound} />*/}
         </Switch>
       </div>
       <Footer />
