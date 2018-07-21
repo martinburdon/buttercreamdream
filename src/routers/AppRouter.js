@@ -19,6 +19,7 @@ const AppRouter = () => (
       </Helmet>
       <Header />
       <div className="main">
+        <Route component={ScrollToTop} />
         <Switch>
           <Route path="/" component={HomePage} exact />
           <Route path="/cakes" component={CakesRouter} />
@@ -30,5 +31,10 @@ const AppRouter = () => (
     </div>
   </BrowserRouter>
 );
+
+const ScrollToTop = () => {
+  window.scrollTo(0, 0);
+  return null;
+};
 
 export default AppRouter;

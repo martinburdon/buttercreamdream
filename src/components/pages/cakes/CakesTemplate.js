@@ -14,7 +14,7 @@ class CakesTemplate extends Component {
           <title>{fullTitle}</title>
         </Helmet>
         <h1>{fullTitle}</h1>
-        <p dangerouslySetInnerHTML={{__html: content}} />
+        {/*<p dangerouslySetInnerHTML={{__html: content}} />*/}
         <Gallery tags={tags} />
       </div>
     )
