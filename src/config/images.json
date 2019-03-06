@@ -2,201 +2,241 @@
   {
     "tags": ["fruit", "pink", "drip", "birthday", "anniversary", "adult"],
     "title": "Fresh fruit drip cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1527797746/Buttercream%20Dream/fruit-drip.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1527797746/Buttercream%20Dream/fruit-drip.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1527797746/Buttercream%20Dream/fruit-drip.jpg"
   },
   {
     "tags": ["pink", "childrens", "mermaid", "birthday"],
     "title": "Mermaid cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1527797749/Buttercream%20Dream/mermaid-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1527797749/Buttercream%20Dream/mermaid-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1527797749/Buttercream%20Dream/mermaid-cake.jpg"
   },
   {
     "tags": ["chocolate", "mini", "snickers", "drip", "nuts", "birthday"],
     "title": "Mini Snickers Drip cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1528579900/Buttercream%20Dream/snickers-mini-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1528579900/Buttercream%20Dream/snickers-mini-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1528579900/Buttercream%20Dream/snickers-mini-cake.jpg"
   },
   {
     "tags": ["pink", "flowers", "birthday", "adult"],
     "title": "Cup of tea cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1527797745/Buttercream%20Dream/cup-of-tea-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1527797745/Buttercream%20Dream/cup-of-tea-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1527797745/Buttercream%20Dream/cup-of-tea-cake.jpg"
   },
   {
     "tags": ["mini", "birthday"],
     "title": "Ski mini cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1528579005/Buttercream%20Dream/ski-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1528579005/Buttercream%20Dream/ski-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1528579005/Buttercream%20Dream/ski-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday"],
     "title": "Grossery Gang cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1528580057/Buttercream%20Dream/grossery-gang-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1528580057/Buttercream%20Dream/grossery-gang-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1528580057/Buttercream%20Dream/grossery-gang-cake.jpg"
   },
   {
     "tags": ["cupcakes", "baby", "babyshower"],
     "title": "Baby Shower cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155618/Buttercream%20Dream/Cupcakes/baby-shower-cupcakes.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155618/Buttercream%20Dream/Cupcakes/baby-shower-cupcakes.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532155618/Buttercream%20Dream/Cupcakes/baby-shower-cupcakes.jpg"
   },
   {
     "tags": ["cupcakes", "unicorn", "animals"],
     "title": "Unicorn cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/unicorn-cupcakes.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/unicorn-cupcakes.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532155617/Buttercream%20Dream/Cupcakes/unicorn-cupcakes.jpg"
   },
   {
     "tags": ["cupcakes", "animals", "dogs"],
     "title": "Dog cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/dog-cupcakes.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/dog-cupcakes.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532155617/Buttercream%20Dream/Cupcakes/dog-cupcakes.jpg"
   },
   {
     "tags": ["cupcakes"],
     "title": "Makeup cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/makeup-cupcakes.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532155617/Buttercream%20Dream/Cupcakes/makeup-cupcakes.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532155617/Buttercream%20Dream/Cupcakes/makeup-cupcakes.jpg"
   },
   {
     "tags": ["anniversary", "sweets", "pink"],
     "title": "Blue and white anniversary cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193708/Buttercream%20Dream/Anniversary/anniversary-biscuit.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193708/Buttercream%20Dream/Anniversary/anniversary-biscuit.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532193708/Buttercream%20Dream/Anniversary/anniversary-biscuit.jpg"
   },
   {
     "tags": ["anniversary"],
     "title": "Aniversary biscuits drip cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532156507/Buttercream%20Dream/Anniversary/anniversary-blue.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532156507/Buttercream%20Dream/Anniversary/anniversary-blue.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532156507/Buttercream%20Dream/Anniversary/anniversary-blue.jpg"
   },
   {
     "tags": ["anniversary"],
     "title": "Silver anniversary cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532156507/Buttercream%20Dream/Anniversary/anniversary-silver.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532156507/Buttercream%20Dream/Anniversary/anniversary-silver.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532156507/Buttercream%20Dream/Anniversary/anniversary-silver.jpg"
   },
   {
     "tags": ["childrens", "birthday"],
     "title": "Pokemon cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157200/Buttercream%20Dream/Childrens/pokemon-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157200/Buttercream%20Dream/Childrens/pokemon-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532157200/Buttercream%20Dream/Childrens/pokemon-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday", "superhero"],
     "title": "Superhero cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157200/Buttercream%20Dream/Childrens/superhero-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157200/Buttercream%20Dream/Childrens/superhero-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532157200/Buttercream%20Dream/Childrens/superhero-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday"],
     "title": "Moana cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/moana-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/moana-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532157199/Buttercream%20Dream/Childrens/moana-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday", "animals"],
     "title": "Peter Rabbit cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/peter-rabbit-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/peter-rabbit-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532157199/Buttercream%20Dream/Childrens/peter-rabbit-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday", "animals"],
     "title": "Farm animals cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/farm-animals-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/farm-animals-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532157199/Buttercream%20Dream/Childrens/farm-animals-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday", "animals"],
     "title": "Gruffalo cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532157198/Buttercream%20Dream/Childrens/gruffalo-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532157198/Buttercream%20Dream/Childrens/gruffalo-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532157198/Buttercream%20Dream/Childrens/gruffalo-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday", "animals"],
     "title": "Zoo animals birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193643/Buttercream%20Dream/Childrens/zoo-animals-birthday.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193643/Buttercream%20Dream/Childrens/zoo-animals-birthday.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532193643/Buttercream%20Dream/Childrens/zoo-animals-birthday.jpg"
   },
   {
     "tags": ["childrens", "birthday", "animals"],
     "title": "Teenage Mutant Ninja Turtles cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/turtles-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157199/Buttercream%20Dream/Childrens/turtles-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532157199/Buttercream%20Dream/Childrens/turtles-cake.jpg"
   },
   {
     "tags": ["childrens", "birthday", "animals"],
     "title": "Hey Duggee cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157198/Buttercream%20Dream/Childrens/hey-duggee-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532157198/Buttercream%20Dream/Childrens/hey-duggee-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532157198/Buttercream%20Dream/Childrens/hey-duggee-cake.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "40th Birthday Cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-teal-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-teal-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-teal-cake.jpg"
   },
   {
     "tags": ["adult", "birthday", "chocolate", "sweets"],
     "title": "Cake explosion birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/chocolate-treats-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/chocolate-treats-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/chocolate-treats-cake.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "90th Birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/90th-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/90th-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/90th-cake.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "Grey Goose Vodka cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/vodka-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/vodka-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/vodka-cake.jpg"
   },
   {
     "tags": ["adult", "birthday", "cupcakes"],
     "title": "40th birthday cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-cupcakes.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-cupcakes.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-cupcakes.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "Knitting birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/knitting-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/knitting-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/knitting-cake.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "Bombay Saphire birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/bombay-saphire-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/bombay-saphire-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/bombay-saphire-cake.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "50th birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,g_north,q_80,h_400,w_400/v1532191720/Buttercream%20Dream/Adult%20birthday%20cakes/50th-wine-glass-bath-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,g_north,q_80,h_400,w_400/v1532191720/Buttercream%20Dream/Adult%20birthday%20cakes/50th-wine-glass-bath-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,g_north,q_80,h_400,w_1,h_1/v1532191720/Buttercream%20Dream/Adult%20birthday%20cakes/50th-wine-glass-bath-cake.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "40th birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,g_north,q_80,h_400,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,g_north,q_80,h_400,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,g_north,q_80,h_400,w_1,h_1/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/40th-cake.jpg"
   },
   {
     "tags": ["adult", "birthday"],
     "title": "50th flowery birthday cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532191720/Buttercream%20Dream/Adult%20birthday%20cakes/50th-flowery-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532191720/Buttercream%20Dream/Adult%20birthday%20cakes/50th-flowery-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532191720/Buttercream%20Dream/Adult%20birthday%20cakes/50th-flowery-cake.jpg"
   },
   {
     "tags": ["cupcakes", "engagement"],
     "title": "Red engagement cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532192562/Buttercream%20Dream/Engagement/red-engagement-cakes.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532192562/Buttercream%20Dream/Engagement/red-engagement-cakes.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532192562/Buttercream%20Dream/Engagement/red-engagement-cakes.jpg"
   },
   {
     "tags": ["engagement"],
     "title": "White engagement cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532192885/Buttercream%20Dream/Engagement/white-engagement-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532192885/Buttercream%20Dream/Engagement/white-engagement-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532192885/Buttercream%20Dream/Engagement/white-engagement-cake.jpg"
   },
   {
     "tags": ["seasonal", "christening", "pink", "animals"],
     "title": "Elephant christening cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193709/Buttercream%20Dream/Seasonal/christening-elephant.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193709/Buttercream%20Dream/Seasonal/christening-elephant.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532193709/Buttercream%20Dream/Seasonal/christening-elephant.jpg"
   },
   {
     "tags": ["seasonal", "christmas"],
     "title": "Holly and berries Christmas cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193709/Buttercream%20Dream/Seasonal/christmas-holly-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193709/Buttercream%20Dream/Seasonal/christmas-holly-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532193709/Buttercream%20Dream/Seasonal/christmas-holly-cake.jpg"
   },
   {
     "tags": ["seasonal", "graduation", "mini"],
     "title": "Graduation cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193709/Buttercream%20Dream/Seasonal/graduation-cake.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193709/Buttercream%20Dream/Seasonal/graduation-cake.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532193709/Buttercream%20Dream/Seasonal/graduation-cake.jpg"
   },
   {
     "tags": ["seasonal", "babyshower", "animals", "cupcakes"],
     "title": "Blue elephant baby shower cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532193708/Buttercream%20Dream/Seasonal/baby-shower-blue-elephants.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532193708/Buttercream%20Dream/Seasonal/baby-shower-blue-elephants.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532193708/Buttercream%20Dream/Seasonal/baby-shower-blue-elephants.jpg"
   },
   {
     "tags": ["seasonal", "christmas", "cupcakes"],
     "title": "Christmas cupcakes",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532193709/Buttercream%20Dream/Seasonal/christmas-cupcakes.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_400/v1532193709/Buttercream%20Dream/Seasonal/christmas-cupcakes.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_fill,q_80,h_400,w_1,h_1/v1532193709/Buttercream%20Dream/Seasonal/christmas-cupcakes.jpg"
   },
   {
     "tags": ["seasonal", "babyshower", "pink"],
     "title": "Pink baby shower cake",
-    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193710/Buttercream%20Dream/Seasonal/baby-shower-bunting.jpg"
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_400/v1532193710/Buttercream%20Dream/Seasonal/baby-shower-bunting.jpg",
+    "placeholder": "https://res.cloudinary.com/mtb/image/upload/f_auto,c_scale,q_80,w_1,h_1/v1532193710/Buttercream%20Dream/Seasonal/baby-shower-bunting.jpg"
   }
 ]

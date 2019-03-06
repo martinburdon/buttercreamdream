@@ -1,6 +1,23 @@
 import React, { Component } from 'react';
 import Photo from 'components/gallery/Photo.js';
 import imagesLib from 'config/images.json';
+import styled from 'styled-components';
+
+const ImageGallery = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  grid-auto-flow: dense;
+  grid-gap: 3rem;
+  margin: 2rem 0;
+
+  .title {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+`;
 
 class Gallery extends Component {
   state = {
@@ -16,9 +33,9 @@ class Gallery extends Component {
 
   render() {
     return (
-      <image-gallery>
+      <ImageGallery>
         {this.state.images.map((item, index) => <Photo {...item} key={index}  />)}
-      </image-gallery>
+      </ImageGallery>
     );
   }
 }
