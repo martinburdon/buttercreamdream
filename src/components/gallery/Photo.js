@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default ({ thumb, title }) => (
+export default ({ placeholder, thumb, title }) => (
   <gallery-item>
-    <img src={thumb} alt={title} />
+    <img className="lazy" src={placeholder} data-src={thumb} alt={title} />
   </gallery-item>
 );

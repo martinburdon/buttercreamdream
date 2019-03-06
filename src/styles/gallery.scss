@@ -21,4 +21,8 @@ image-gallery,
 
 gallery-item {
   display: block;
+
+  .lazy {
+    opacity: 0.3;
+  }
 }

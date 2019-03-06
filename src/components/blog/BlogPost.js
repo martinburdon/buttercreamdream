@@ -13,6 +13,7 @@ class BlogPost extends Component {
     };
   }
 
+  // TODO Change to static getDerivedStateFromProps
   componentWillMount() {
     const post = require(`../posts/${this.state.postSlug}.md`);
 
