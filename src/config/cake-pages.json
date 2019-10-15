@@ -35,6 +35,13 @@
     "thumb": "https://res.cloudinary.com/mtb/image/upload/c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/chocolate-treats-cake.jpg"
   },
   {
+    "title": "Adult Birthday Cakes",
+    "shortContent": "Birthday cake isn't just for the kids, don't forget grown ups enjoy cake too!",
+    "content": "This is some content for the Adult Birthday page",
+    "tags": ["adult"],
+    "thumb": "https://res.cloudinary.com/mtb/image/upload/c_scale,q_80,w_400/v1532191719/Buttercream%20Dream/Adult%20birthday%20cakes/chocolate-treats-cake.jpg"
+  },
+  {
     "title": "Engagement Cakes",
     "shortContent": "What better way to celebrate such a special occasion as an engagement. 💍 Share the moment with friends and cake!",
     "content": "This is some content for the Engagement page",
